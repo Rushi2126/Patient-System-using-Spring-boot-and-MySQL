@@ -1,0 +1,12 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+package demo.abc.model.Repository;
+
+import demo.abc.model.Patient;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface IMongoRepository extends MongoRepository<Patient, Integer> {
+}
